@@ -103,7 +103,7 @@ public class DoController {
 
     /**
      * 批量处理文件夹接口（接收 JSON 请求体）
-     * 只需要传入 fakeVideoPath（风景图/视频） 和 folderPath（要处理的视频文件夹）
+     * 只需要传入 fakeVideoPath（风景图/视频） 和 folderPath（要处理的视频文件夹） s
      */
     @PostMapping("/generate-batch")
     public ResponseEntity<Map<String, Object>> generateBatchVideos(@RequestBody Map<String, String> params) {
