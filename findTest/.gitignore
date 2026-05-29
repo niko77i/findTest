@@ -1,0 +1,5 @@
+### Video & output files ###
+*.mp4
+
+### IntelliJ IDEA ###
+.idea/
